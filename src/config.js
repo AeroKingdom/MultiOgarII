@@ -153,7 +153,7 @@ module.exports = Object.seal({
 // playerDisconnectTime: Time in seconds before a disconnected player's cell is removed from the server (Set to -1 to never remove)
 // splitVelocity: Velocity of splitting playercells (speed and distance)
 "playerMinSize": 50,
-"playerMaxSize": 3500
+"playerMaxSize": 3500,
 "playerMinSplitSize": 59.16079783,
 "playerMinEjectSize": 59.16079783,
 "playerStartSize": 31.6227766017,
