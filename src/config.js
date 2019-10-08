@@ -41,7 +41,7 @@ module.exports = Object.seal({
 "serverTimeout": 300,
 "serverWsModule": "ws",
 "serverMaxConnections": 500,
-"serverPort": 8080,
+"serverPort": 3003,
 "serverBind": "0.0.0.0",
 "serverTracker": 0,
 "serverGamemode": 0,
@@ -50,7 +50,7 @@ module.exports = Object.seal({
 "serverViewBaseY": 1080,
 "serverMinScale": 0.15,
 "serverSpectatorScale": 0.4,
-"serverStatsPort": 88,
+"serverStatsPort": 13337,
 "serverStatsUpdate": 60,
 "mobilePhysics": 0,
 "badWordFilter": 1,
@@ -97,8 +97,8 @@ module.exports = Object.seal({
 // foodMaxSize: vanilla 20 (mass: 20*20/100: 4 mass)
 // foodAmount: The number of food to spawn
 // foodMassGrow: Enable food mass grow ?
-"foodMinSize": 10,
-"foodMaxSize": 20,
+"foodMinSize": 25,
+"foodMaxSize": 25,
 "foodAmount": 700,
 "foodMassGrow": 1,
 
@@ -152,18 +152,18 @@ module.exports = Object.seal({
 // playerDecayCap: Maximum mass a cell can have before it's decayrate multiplies by 10. (0 to disable)
 // playerDisconnectTime: Time in seconds before a disconnected player's cell is removed from the server (Set to -1 to never remove)
 // splitVelocity: Velocity of splitting playercells (speed and distance)
-"playerMinSize": 31.6227766017,
-"playerMaxSize": 1500,
+"playerMinSize": 50,
+"playerMaxSize": 3500
 "playerMinSplitSize": 59.16079783,
 "playerMinEjectSize": 59.16079783,
 "playerStartSize": 31.6227766017,
 "playerMaxCells": 16,
-"playerSpeed": 1,
+"playerSpeed": 2
 "playerDecayRate": 0.002,
 "playerDecayCap": 0,
 "playerRecombineTime": 30,
 "playerMaxNickLength": 15,
-"playerDisconnectTime": -1,
+"playerDisconnectTime": 15
 "splitVelocity": 780,
 
 // [MINIONS]
