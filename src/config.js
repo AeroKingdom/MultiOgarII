@@ -68,9 +68,9 @@ module.exports = Object.seal({
 "serverChat": 1,
 "serverChatAscii": 1,
 "separateChatForTeams": 0,
-"serverName": "MultiOgarII #1",
-"serverWelcome1": "Welcome to MultiOgarII!",
-"serverWelcome2": "",
+"serverName": "Komega Private Server (FFA)",
+"serverWelcome1": "Welcome to the Komega Private Server",
+"serverWelcome2": "Finally got it working...",
 "clientBind": "",
 
 // [ANTI-BOT]
@@ -158,12 +158,12 @@ module.exports = Object.seal({
 "playerMinEjectSize": 59.16079783,
 "playerStartSize": 31.6227766017,
 "playerMaxCells": 16,
-"playerSpeed": 2
+"playerSpeed": 2,
 "playerDecayRate": 0.002,
 "playerDecayCap": 0,
 "playerRecombineTime": 30,
 "playerMaxNickLength": 15,
-"playerDisconnectTime": 15
+"playerDisconnectTime": 15,
 "splitVelocity": 780,
 
 // [MINIONS]
